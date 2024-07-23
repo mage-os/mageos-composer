@@ -1,8 +1,8 @@
 {
-  "name": "magento/composer",
+  "name": "mage-os/composer",
   "description": "Magento composer library helps to instantiate Composer application and run composer commands.",
   "type": "library",
-  "version": "1.9.0",
+  "version": "1.0.3",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
@@ -19,5 +19,8 @@
     "psr-4": {
       "Magento\\Composer\\": "src"
     }
+  },
+  "replace": {
+    "magento/composer": "1.10.0"
   }
 }
