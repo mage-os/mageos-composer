@@ -40,6 +40,9 @@ php >=5.4.11
         $this->infoCommand = new InfoCommand($this->application);
     }
 
+    /**
+     * @dataProvider getCommandOutputDataProvider
+     */
     #[DataProvider('getCommandOutputDataProvider')]
     public function testRun($input, $output)
     {
